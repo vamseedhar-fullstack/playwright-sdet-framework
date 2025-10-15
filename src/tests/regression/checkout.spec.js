@@ -54,4 +54,6 @@ test("Checkout flow from login to order confirmation", async ({ page, context, l
 
   // Stop tracing and save the trace file (can be opened later to replay the session)
   await context.tracing.stop({ path: "src/reports/traces/checkout-trace.zip" });
+
+  console.log("checking")
 });

@@ -1,0 +1,4 @@
+npm install --save-dev @playwright/test playwright cross-env
+npx playwright install --with-deps
+
+npm run test:dev test2.spec.js --  --project=chromium --headed
